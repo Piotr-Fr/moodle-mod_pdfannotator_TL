@@ -79,6 +79,9 @@ $pdfannotator->mainfile = $file->get_filename();
 // Set course name for display.
 $PAGE->set_heading($course->fullname);
 
+// Trinity Lab: Load enhanced fullscreen module
+$PAGE->requires->js_call_amd('mod_pdfannotator/fullscreen_enhanced', 'init');
+
 // Display course name, navigation bar at the very top and "Dashboard->...->..." bar.
 echo $OUTPUT->header();
 
