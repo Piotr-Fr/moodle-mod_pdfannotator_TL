@@ -146,10 +146,3 @@
         }
     }
 })();
-```
-
-5. **Przewiń na dół strony**
-
-6. **W polu "Commit message"** wpisz:
-```
-   Add simplified fullscreen JavaScript (no compilation needed)
